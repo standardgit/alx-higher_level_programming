@@ -1,3 +1,3 @@
--- list all database
--- access the database
-SHOW DATABASES
+-- list all databases
+-- query databases
+SHOW databases;
