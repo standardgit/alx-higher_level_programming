@@ -1,3 +1,3 @@
--- Creating a database
--- code should not fail
-CREATE DATABASE hbtn_0c_0 WHERE_NOT_EXIST
+-- create database
+-- CREATE DATABASE what never fails;
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
