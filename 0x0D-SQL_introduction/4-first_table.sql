@@ -1,5 +1,5 @@
 -- Creating a table in db
 -- Taking columns
-	CREATE TABLE first_table (
+	CREATE TABLE IF NOT EXISTS first_table (
 	id (int),
-	name (varchar(256))
+	name (varchar(256))ENGINE =  INNODB
