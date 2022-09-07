@@ -1,3 +1,3 @@
 -- Full description if the database
 -- Command to describe the database
-SHOW mysql
+SHOW CREATE TABLE first_table;
