@@ -1,9 +1,9 @@
 -- Creating full database table
 -- Adding multiple rows
-CREATE TABLE second_table (
+CREATE TABLE IF NOT EXISTS second_table (
 	id (int),
 	name (varcharr(256))
-	score (int),);
+	score (int),); ENGINE = INNODB
 INSERT INTO second_table (id, name, score) VALUES(
 	(1, 'John', 10),
 	(2, 'Alex', 3),
