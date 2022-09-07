@@ -1,3 +1,3 @@
 -- delete database
--- should not faile
-DROP DATABASE IF_EXISTS  hbtn_0c_0;
+-- must not fail
+DROP DATABASE If EXISTS hbtn_0c_0;
