@@ -1,6 +1,10 @@
 #!/usr/bin/node
 
 const process = require('process');
-const argv = process.argv
+const argv = process.argv;
 
-console.log(argv[2] * 'C is fun' )
+const word = 'C is fun';
+
+for (let i = 0; i < Number(argv[2]); i++) {
+  console.log(word);
+}
