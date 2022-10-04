@@ -8,7 +8,7 @@ function factorial (num) {
     return 1;
   }
   return num * factorial(num - 1);
-};
+}
 
 if (argv[2] <= 0 || argv[2] >= 0) {
   console.log(factorial(Number(argv[2])));
