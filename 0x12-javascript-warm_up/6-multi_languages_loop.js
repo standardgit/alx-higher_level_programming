@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
-const process = require('process');
-const argv = process.argv;
+const arr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
 for (let i = 0; i < argv.length - 1; i++) {
   console.log(argv[i])};
