@@ -1,9 +1,9 @@
-i#!/usr/bin/node
+#!/usr/bin/node
 
 const process = require('process');
 const argv = process.argv;
 
-const factorial = function(num) {
+function factorial (num) {
   if (num === 1) {
     return 1;
   }
