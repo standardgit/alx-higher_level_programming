@@ -1,1 +1,1 @@
-Javascript warm up should be amazing
+Javascript should be amazing
