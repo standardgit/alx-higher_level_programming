@@ -11,7 +11,7 @@ class square extends Square {
       c = 'X'
     }
     for (let i = 1; i <= this.height; i++) {                                                         
-      const word = 'X'.repeat(this.width);
+      const word = 'C'.repeat(this.width);
       console.log(word);                                                                             
     }    	
   }
