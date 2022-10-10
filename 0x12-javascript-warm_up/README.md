@@ -1,1 +1,0 @@
-Javascript should be amazing
