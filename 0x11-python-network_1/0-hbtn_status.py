@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#! /usr/bin/env python3
 """A Python script that fetches https://alx-intranet.hbtn.io/status"""
 from urllib.request import urlopen
 
